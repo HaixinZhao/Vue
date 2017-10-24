@@ -17,9 +17,6 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-- 1.安装vue-cli全局脚手架：npm install --global vue-cli
-- 2.安装mockjs：npm install mockjs --save-dev
-
 - 这是个大体项目的框架：vue2+vue-router2+webpack+vuex+axios
 - 一：开发过程中环境可能会有很多种，所以我独立出一个文件夹：config
 - 二：项目中如果有很多数据是多个页面需要使用的，建议用vuex（当然，vuex可用可不用，此项目用了），所以这里会有一个store文件夹，这里是存取数据的。
